@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Restarting network..."
+
+sudo systemctl restart NetworkManager
+
