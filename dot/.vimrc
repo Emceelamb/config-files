@@ -15,8 +15,11 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 let g:indent_guides_enable_on_vim_startup = 1
-
 set background=dark
+set ts=4 sw=4 et
+let g:indent_guides_start_level=1
+let g:indent_guides_guide_size=1
+highlight Normal ctermbg=NONE
 
 set nocompatible
 filetype off
