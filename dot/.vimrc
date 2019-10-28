@@ -6,6 +6,8 @@ set smartindent
 set expandtab
 syntax enable
 imap jj <Esc>
+nmap lbr :set lbr
+nmap nbr :set nolbr
 
 au BufNewFile,BufRead *.ejs set filetype=html.javascript
 
