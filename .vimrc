@@ -9,8 +9,6 @@ imap jj <Esc>
 nmap lbr :set lbr
 nmap nbr :set nolbr
 
-:command Preview MarkdownPreview
-
 au BufNewFile,BufRead *.ejs set filetype=html.javascript
 
 au VimEnter * RainbowParenthesesToggle
@@ -39,11 +37,6 @@ Plugin 'surround.vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/goyo.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'townk/vim-autoclose'
-Plugin 'iamcco/markdown-preview.nvim'
 
-" emmet config
-let g:user_emmet_leader_key=','
 call vundle#end()
 filetype plugin indent on
