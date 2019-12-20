@@ -23,3 +23,6 @@ alias p='sudo pacman'
 
 # chmod shortcut
 alias ch='sudo chmod'
+
+# ranger shortcut
+alias r='ranger'

@@ -17,3 +17,8 @@ My .dot files, shell scripts, and various configurations as I learn more about t
 - Bash
 - Tmux
 - mosh
+- Konsole
+
+#### Misc
+- i3wm
+
