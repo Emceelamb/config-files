@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Bash
+ln -sv ~/config-files/dot/.bashrc ~
+ln -sv ~/config-files/dot/.bash_aliases ~
+
+# Vim 
+ln -sv ~/config-files/dot/.vim/ ~
+ln -sv ~/config-files/dot/.vim/.vimrc  ~
+
+

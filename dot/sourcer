@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Bash
+source ~/.bash_aliases
+source ~/.bashrc
+
+# Vim 
+source ~/.vimrc
+
