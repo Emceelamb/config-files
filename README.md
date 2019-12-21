@@ -4,7 +4,7 @@ My .dot files, shell scripts, and various configurations as I learn more about t
 
 ### Toolkit
 ---
-#### Operating system
+#### Operating systems
 - KDE Arch Linux
 - Kubuntu
 - Raspian

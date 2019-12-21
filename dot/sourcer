@@ -7,3 +7,6 @@ source ~/.bashrc
 # Vim 
 source ~/.vimrc
 
+# Tmux
+source ~/.tmux.conf
+
