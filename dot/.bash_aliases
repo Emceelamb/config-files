@@ -26,3 +26,27 @@ alias ch='sudo chmod'
 
 # ranger shortcut
 alias r='ranger'
+
+# Feh shortcut
+# alias fe='feh'
+
+#fzf
+fe() {
+  local files
+  IFS=$'\n' files=($(fzf-tmux --query="$1" --multi --select-1 --exit-0))
+  [[ -n "$files" ]] && ${EDITOR:-vim} "${files[@]}"
+}
+
+# sxiv image viewer
+sxgif() 
+{
+    if [[ $@ =~ \.gif$ ]];
+    then
+        sxiv "$@" -a &
+    else
+        sxiv "$@" &
+    fi
+}
+
+alias sx=sxgif 
+

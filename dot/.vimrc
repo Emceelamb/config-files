@@ -17,6 +17,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
 set splitbelow
 set splitright
 
@@ -56,6 +57,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/goyo.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'townk/vim-autoclose'
+Plugin 'maxmellon/vim-jsx-pretty'
 
 " Markdown Plugin
 Plugin 'iamcco/markdown-preview.nvim'
