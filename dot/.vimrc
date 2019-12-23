@@ -27,6 +27,7 @@ set splitright
 
 " Custom Commands
 :command Preview MarkdownPreview
+:command Date :pu=strftime('%F')
 
 " EJS as filetype
 au BufNewFile,BufRead *.ejs set filetype=html.javascript

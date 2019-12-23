@@ -52,3 +52,6 @@ alias sx=sxgif
 
 # save a letter on vim 
 alias vi=vim
+
+# gatsby
+alias gdev='gatsby develop'
