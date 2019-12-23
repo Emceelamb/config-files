@@ -60,7 +60,8 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/goyo.vim'
 Plugin 'mattn/emmet-vim'
-Plugin 'townk/vim-autoclose'
+Plugin 'jiangmiao/auto-pairs'
+"Plugin 'townk/vim-autoclose'
 Plugin 'maxmellon/vim-jsx-pretty'
 
 " Markdown Plugin
