@@ -9,6 +9,7 @@ ln -sv ~/.config-files/dot/.vim/ ~
 ln -sv ~/.config-files/dot/.vimrc ~
 
 # Tmux
+ln -sv ~/.config-files/dot/.tmux/ ~
 ln -sv ~/.config-files/dot/.tmux.conf ~
 
 

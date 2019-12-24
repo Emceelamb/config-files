@@ -53,5 +53,13 @@ alias sx=sxgif
 # save a letter on vim 
 alias vi=vim
 
+# save 2 letters on making dir
+alias mkd=mkdir
+
+# save 4 letters to list directory
+alias l='ls -a'
+
 # gatsby
-alias gdev='gatsby develop'
+alias gdeve='gatsby develop'
+alias gbuild='gatsby build'
+alias gserve='gatsby serve'

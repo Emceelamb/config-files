@@ -1,0 +1,4 @@
+pane	0	0	:bash	1	:*	0	:/home/drifter/Documents/practice/gatsby/tt-part-mobx	0	bash	:
+pane	0	0	:bash	1	:*	1	:/home/drifter/Documents/practice/gatsby/tt-part-mobx	1	vim	:vim package.json
+window	0	0	1	:*	d221,110x53,0,0[110x37,0,0,1,110x15,0,38,2]
+state	0	

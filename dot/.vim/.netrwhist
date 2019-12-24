@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/drifter/Documents/practice/gatsby/mobx-example/src/layouts'
+let g:netrw_dirhist_6='/home/drifter/.tmux/plugins'
+let g:netrw_dirhist_5='/home/drifter/.tmux'
 let g:netrw_dirhist_4='/home/drifter/Documents/practice/gatsby/tt-part-4/src'
 let g:netrw_dirhist_3='/home/drifter/Documents/practice/gatsby/tt-part-2/src/components'
 let g:netrw_dirhist_2='/home/drifter/.config'
