@@ -1,10 +1,11 @@
-" Basic Vim setup
 set number
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set autoindent
 set smartindent
 set expandtab
+set background=dark
 syntax enable
 imap jj <Esc>
 
@@ -27,7 +28,8 @@ set splitright
 
 " Custom Commands
 :command Preview MarkdownPreview
-:command Date :pu=strftime('%F')
+:nnoremap <F5> "=strftime("%F")<CR>p
+:inoremap <F5> <C-R>=strftime("%F")<CR>
 
 " EJS as filetype
 au BufNewFile,BufRead *.ejs set filetype=html.javascript
@@ -40,14 +42,23 @@ au Syntax * RainbowParenthesesLoadBraces
 
 " Indent guideline setup
 let g:indent_guides_enable_on_vim_startup = 1
-set background=dark
-set ts=4 sw=4 et
 let g:indent_guides_start_level=1
 let g:indent_guides_guide_size=1
+set ts=2 sw=2 sts=2 et
+
 highlight Normal ctermbg=NONE
+highlight Comment cterm=italic ctermbg=black
 
 " Auto pair
 let g:AutoPairsShortcutToggle = '<C-A><C-P>'
+
+" Nerdtree
+nmap <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=0
+let g:NERDTreeQuitOnOpen=1
+
+" Emojis!
+set completefunc=emoji#complete
 
 " Vundle plugin setup
 set nocompatible
@@ -56,22 +67,29 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-" Additonal plugins
+" Basic environment plugins
 Plugin 'SuperTab'
 Plugin 'Tabular'
 Plugin 'surround.vim'
+Plugin 'tpope/vim-repeat'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'junegunn/goyo.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'jiangmiao/auto-pairs'
-"Plugin 'townk/vim-autoclose'
-Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'scrooloose/nerdtree'
 
-" Markdown Plugin
+" Developing Assistants 
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'prettier/vim-prettier'
+Plugin 'tpope/vim-commentary'
+Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'mattn/emmet-vim'
+
+" Writing Plugins
+Plugin 'junegunn/goyo.vim'
 Plugin 'iamcco/markdown-preview.nvim'
+Plugin 'junegunn/vim-emoji'
 
 " emmet config
 let g:user_emmet_leader_key=','
 call vundle#end()
 filetype plugin indent on
+

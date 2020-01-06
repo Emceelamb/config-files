@@ -27,8 +27,7 @@ alias ch='sudo chmod'
 # ranger shortcut
 alias r='ranger'
 
-# Feh shortcut
-# alias fe='feh'
+# Fuzzy Finder Execute
 
 #fzf
 fe() {
@@ -63,3 +62,8 @@ alias l='ls -a'
 alias gdeve='gatsby develop'
 alias gbuild='gatsby build'
 alias gserve='gatsby serve'
+
+# less highlight
+export LESSOPEN="| src-hilite-lesspipe.sh %s"
+export LESS=" -R "
+alias less='less -N'
