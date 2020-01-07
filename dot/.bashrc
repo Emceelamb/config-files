@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # Change bash headline
-PS1='\e[0;32m\u\e[m\e[0;36m@\h \e[93m\W =>\e[m '
+PS1='\e[32m\u\e[36m@\h \e[0;93m\W =>\e[m '
 # PS1='[\u@\h \W]\$ '
 
 nime=/home/drifter/school/2019_fall/nime/Centralize/master
