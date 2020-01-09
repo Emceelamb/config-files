@@ -21,4 +21,5 @@ My .dot files, shell scripts, and various configurations as I learn more about t
 
 #### Misc
 - i3wm
+- font: [Cascadia Code](https://github.com/microsoft/cascadia-code)
 

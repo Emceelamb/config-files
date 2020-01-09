@@ -93,3 +93,16 @@ let g:user_emmet_leader_key=','
 call vundle#end()
 filetype plugin indent on
 
+function! MergeTab()
+    let bufnums = tabpagebuflist()
+    hide tabclose
+    topleft vsplit
+    for n in bufnums
+        execute 'sbuffer ' . n
+        wincmd _
+    endfor
+    wincmd t
+    quit
+    wincmd =
+endfunction
+command! MergeTab call MergeTab()

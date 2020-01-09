@@ -67,3 +67,6 @@ alias gserve='gatsby serve'
 export LESSOPEN="| src-hilite-lesspipe.sh %s"
 export LESS=" -R "
 alias less='less -N'
+
+# Grep history
+alias hg='history | grep'

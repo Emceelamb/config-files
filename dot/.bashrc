@@ -43,5 +43,4 @@ export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
 ## Useful timestamp format
 HISTTIMEFORMAT='%F %T '
 
-
-
+export PATH="/home/drifter/bin:$PATH"
