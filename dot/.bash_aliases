@@ -70,3 +70,6 @@ alias less='less -N'
 
 # Grep history
 alias hg='history | grep'
+
+# Jpegoptimizer
+alias jopt='jpegoptim'
