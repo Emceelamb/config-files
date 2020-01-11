@@ -44,3 +44,8 @@ export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
 HISTTIMEFORMAT='%F %T '
 
 export PATH="/home/drifter/bin:$PATH"
+
+# enable vi with Esc
+set -o vi
+bind -m vi-insert "\C-l":clear-screen
+
