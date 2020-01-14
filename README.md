@@ -3,7 +3,6 @@
 My .dot files, shell scripts, and various configuration files as I learn more about the machine.
 
 ## Some of my favorite tools
----
 ### Operating systems
 - KDE Arch Linux
 - Kubuntu
