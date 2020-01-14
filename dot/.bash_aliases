@@ -73,3 +73,6 @@ alias hg='history | grep'
 
 # Jpegoptimizer
 alias jopt='jpegoptim'
+
+# Processing Py CLI path
+alias processing-py='java -jar /home/drifter/sketchbook/modes/processing.py/processing-py.jar'

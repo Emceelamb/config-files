@@ -9,6 +9,9 @@ set background=dark
 syntax enable
 imap jj <Esc>
 
+"set inclusive
+set selection=inclusive
+
 " Change line breaks
 nmap lbr :set lbr
 nmap nbr :set nolbr
@@ -106,3 +109,4 @@ function! MergeTab()
     wincmd =
 endfunction
 command! MergeTab call MergeTab()
+

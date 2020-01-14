@@ -1,25 +1,29 @@
 # Configuration files
 
-My .dot files, shell scripts, and various configurations as I learn more about the machine.
+My .dot files, shell scripts, and various configuration files as I learn more about the machine.
 
-### Toolkit
+## Some of my favorite tools
 ---
-#### Operating systems
+### Operating systems
 - KDE Arch Linux
 - Kubuntu
 - Raspian
 
-#### Text
+### Text
 - Vim
 - VS Code
 
-#### Shell
+### Shell
 - Bash
+- DASH
 - Tmux
 - mosh
 - Konsole
 
-#### Misc
+### Misc
 - i3wm
 - font: [Cascadia Code](https://github.com/microsoft/cascadia-code)
-
+- mpv for video
+- sxiv for images
+- jpegoptim for optimizing images
+- zathura for pdf
