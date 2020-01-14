@@ -1,14 +1,17 @@
 #!/bin/bash
 
+# This script will check if a commit message is 
+# supplied in the argument otherwise it will ask for a commit message
+
 if [ -z "$1" ]
   then
-    read -r -p 'Commit msg: ' desc  # prompt user for commit message
-    git add .                           # track all files
-    git add -u                          # track deletes
-    git commit -m "$desc"               # commit with message
-    git push origin master              # push to origin
+    read -r -p 'Commit msg: ' desc # prompt user for commit message
+    git add .                      # track all files
+    git add -u                     # track deletes
+    git commit -m "$desc"          # commit with message
+    git push origin master         # push to origin
   else
-    msg="$*"
+    msg="$*"                       # takes arguments and stores it into a string.
     git add .
     git add -u
     git commit -m "$msg"
