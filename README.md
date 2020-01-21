@@ -26,3 +26,4 @@ My .dot files, shell scripts, and various configuration files as I learn more ab
 - sxiv for images
 - jpegoptim for optimizing images
 - zathura for pdf
+- test

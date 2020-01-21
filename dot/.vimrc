@@ -91,6 +91,10 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'junegunn/vim-emoji'
 
+" Color Schemes
+Plugin 'gilgigilgil/anderson.vim'
+Plugin 'morhetz/gruvbox'
+
 " emmet config
 let g:user_emmet_leader_key=','
 call vundle#end()
