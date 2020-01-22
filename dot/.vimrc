@@ -7,14 +7,14 @@ set smartindent
 set expandtab
 set background=dark
 syntax enable
-imap jj <Esc>
+inoremap jj <Esc>
 
 "set inclusive
 set selection=inclusive
 
 " Change line breaks
-nmap lbr :set lbr
-nmap nbr :set nolbr
+nnoremap lbr :set lbr
+nnoremap nbr :set nolbr
 
 " Easier Split navigation
 nnoremap <C-J> <C-W><C-J>
@@ -29,10 +29,15 @@ nnoremap <C-L><C-L> gt
 set splitbelow
 set splitright
 
+"Spellcheck
+set spellfile=$HOME/.config-files/dot/.vim/spell/en.utf-8.add
+command Spellcheck set spell!
+autocmd BufRead,BufNewFile *.md setlocal spell
+
 " Custom Commands
-:command Preview MarkdownPreview
-:nnoremap <F5> "=strftime("%F")<CR>p
-:inoremap <F5> <C-R>=strftime("%F")<CR>
+command Preview MarkdownPreview
+nnoremap <F5> "=strftime("%F")<CR>p
+inoremap <F5> <C-R>=strftime("%F")<CR>
 
 " EJS as filetype
 au BufNewFile,BufRead *.ejs set filetype=html.javascript
@@ -56,7 +61,7 @@ highlight Comment cterm=italic ctermbg=black
 let g:AutoPairsShortcutToggle = '<C-A><C-P>'
 
 " Nerdtree
-nmap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=0
 let g:NERDTreeQuitOnOpen=1
 

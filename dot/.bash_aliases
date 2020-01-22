@@ -76,3 +76,6 @@ alias jopt='jpegoptim'
 
 # Processing Py CLI path
 alias processing-py='java -jar /home/drifter/sketchbook/modes/processing.py/processing-py.jar'
+
+# Shortcuts
+configs=$HOME/.config-files/
