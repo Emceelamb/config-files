@@ -8,6 +8,9 @@ alias xclip='xclip -selection clipboard'
 alias tree="find . -not -path '*/\.*' -print | sed -e 's;[^/]*/;|;g;s;|; |;g'"
 alias treefile="find . -not -path '*/\.*' | xargs -I {} bash -c 'f={}; echo \$f | sed -e \"s;[^/]*/;|;g;s;|; |;g\"; if [[ \$f == *.txt ]]; then echo; cat \$f; echo; echo; fi'"
 
+# Verbose removal
+alias rm='rm -v'
+
 # Easier to open
 alias open='xdg-open'
 
@@ -77,5 +80,16 @@ alias jopt='jpegoptim'
 # Processing Py CLI path
 alias processing-py='java -jar /home/drifter/sketchbook/modes/processing.py/processing-py.jar'
 
+
 # Shortcuts
 configs=$HOME/.config-files/
+
+# Shortcut to workng directory
+alias gtw='working_dir=$(cat ~/bin/working_dir); cd $working_dir'
+
+wd(){
+  working_dir=$(pwd);
+  echo $working_dir > ~/bin/working_dir
+  echo Your working directory is $working_dir
+}
+

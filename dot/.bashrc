@@ -9,6 +9,7 @@
 PS1='\e[32m\u\e[36m@\h \e[0;93m\W =>\e[m '
 # PS1='[\u@\h \W]\$ '
 
+sh /home/drifter/Documents/practice/bash-automation-workshop/12_welcome-message/12_truism
 nime=/home/drifter/school/2019_fall/nime/Centralize/master
 
 if [ -f ~/.bash_aliases ]; then
@@ -19,7 +20,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-sh /home/drifter/Documents/practice/bash-automation-workshop/08_welcome-message/08_truism
 
 # Better tab completion
 bind "set completion-ignore-case on"
