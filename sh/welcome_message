@@ -1,0 +1,9 @@
+#!/bin/sh
+
+truism="$(shuf -n 1 /home/drifter/bin/welcome-message/truisms)"
+
+#tput clear
+
+tput bold
+echo $truism | cowsay -f $(ls /usr/share/cows | shuf -n 1)
+tput sgr0

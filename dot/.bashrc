@@ -9,7 +9,7 @@
 PS1='\e[32m\u\e[36m@\h \e[0;93m\W =>\e[m '
 # PS1='[\u@\h \W]\$ '
 
-sh /home/drifter/Documents/practice/bash-automation-workshop/12_welcome-message/12_truism
+sh /home/drifter/bin/welcome-message/welcome_message
 nime=/home/drifter/school/2019_fall/nime/Centralize/master
 
 if [ -f ~/.bash_aliases ]; then

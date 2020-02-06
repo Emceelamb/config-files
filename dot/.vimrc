@@ -8,6 +8,7 @@ set expandtab
 set background=dark
 syntax enable
 inoremap jj <Esc>
+inoremap jk <Esc>
 
 "set inclusive
 set selection=inclusive
