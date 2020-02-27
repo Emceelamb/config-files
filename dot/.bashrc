@@ -9,7 +9,7 @@
 PS1='\e[32m\u\e[36m@\h \e[0;93m\W =>\e[m '
 # PS1='[\u@\h \W]\$ '
 
-sh /home/drifter/bin/welcome-message/welcome_message
+sh $HOME/bin/welcome-message/welcome_message
 nime=/home/drifter/school/2019_fall/nime/Centralize/master
 
 if [ -f ~/.bash_aliases ]; then
@@ -43,7 +43,7 @@ export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
 ## Useful timestamp format
 HISTTIMEFORMAT='%F %T '
 
-export PATH="/home/drifter/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 # enable vi with Esc
 set -o vi
