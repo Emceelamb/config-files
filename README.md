@@ -2,6 +2,8 @@
 
 My .dot files, shell scripts, and various configuration files as I learn more about the machine..
 
+_This is a set up for raspberry pi_
+
 ## Some of my favorite tools
 ### Operating systems
 - KDE Arch Linux
