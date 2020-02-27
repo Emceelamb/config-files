@@ -93,3 +93,5 @@ wd(){
   echo Your working directory is $working_dir
 }
 
+# RTFM output man as less
+alias rtfm='man $@ | less'

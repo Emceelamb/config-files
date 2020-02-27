@@ -9,6 +9,7 @@ set background=dark
 syntax enable
 inoremap jj <Esc>
 inoremap jk <Esc>
+inoremap kj <Esc>
 
 "set inclusive
 set selection=inclusive
