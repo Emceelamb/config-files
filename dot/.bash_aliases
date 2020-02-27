@@ -84,14 +84,13 @@ alias processing-py='java -jar /home/drifter/sketchbook/modes/processing.py/proc
 # Shortcuts
 configs=$HOME/.config-files/
 
+
 # Shortcut to workng directory
 alias gtw='working_dir=$(cat ~/bin/working_dir); cd $working_dir'
 
 wd(){
-  working_dir=$(pwd);
+  working_dir=$(pwd)
   echo $working_dir > ~/bin/working_dir
   echo Your working directory is $working_dir
 }
 
-# RTFM output man as less
-alias rtfm='man $@ | less'
