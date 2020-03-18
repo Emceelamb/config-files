@@ -1,4 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/drifter	0	bash	:
-pane	0	0	:bash	1	:*	1	:/home/drifter	1	bash	:
-window	0	0	1	:*	f58c,70x53,0,0[70x36,0,0,1,70x16,0,37,2]
-state	0	

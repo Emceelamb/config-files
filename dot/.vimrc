@@ -9,6 +9,7 @@ set background=dark
 syntax enable
 inoremap jj <Esc>
 inoremap jk <Esc>
+inoremap kj <Esc>
 
 "set inclusive
 set selection=inclusive
@@ -120,3 +121,11 @@ function! MergeTab()
 endfunction
 command! MergeTab call MergeTab()
 
+" Set Relative numbers
+set number relativenumber
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END

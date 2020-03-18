@@ -1,4 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/drifter/Documents/practice/bash-automation-workshop	1	bash	:
-pane	0	0	:bash	1	:*	1	:/home/drifter/Documents/practice/gatsby/tt-part-mobx	0	node	:node /home/drifter/.nvm/versions/node/v11.14.0/bin/gatsby develop
-window	0	0	1	:*	ab21,110x53,0,0[110x36,0,0,1,110x16,0,37,2]
-state	0	

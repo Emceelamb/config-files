@@ -1,4 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/drifter/Documents/practice/gatsby/mobx-example/src	1	bash	:
-pane	0	0	:bash	1	:*	1	:/home/drifter/Documents/practice/gatsby/mobx-example	0	node	:node /home/drifter/.nvm/versions/node/v11.14.0/bin/gatsby develop
-window	0	0	1	:*	a264,86x54,0,0[86x38,0,0,1,86x15,0,39,2]
-state	0	

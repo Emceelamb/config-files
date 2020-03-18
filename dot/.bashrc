@@ -49,3 +49,5 @@ export PATH="$HOME/bin:$PATH"
 set -o vi
 bind -m vi-insert "\C-l":clear-screen
 
+# enable shell bookmarks
+source $HOME/bin/shell-bookmarks
