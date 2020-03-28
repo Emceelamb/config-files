@@ -50,4 +50,4 @@ set -o vi
 bind -m vi-insert "\C-l":clear-screen
 
 # enable shell bookmarks
-source $HOME/bin/shell-bookmarks
+source $HOME/bin/shell-bookmarks.sh
