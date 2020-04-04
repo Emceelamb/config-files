@@ -3,6 +3,7 @@
 # Bash
 ln -sv ~/.config-files/dot/.bashrc ~
 ln -sv ~/.config-files/dot/.bash_aliases ~
+ln -sv ~/.config-files/dot/.inputrc ~
 
 # Vim 
 ln -sv ~/.config-files/dot/.vim/ ~

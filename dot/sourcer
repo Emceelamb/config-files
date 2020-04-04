@@ -3,6 +3,7 @@
 # Bash
 source ~/.bash_aliases
 source ~/.bashrc
+source ~/.inputrc
 
 # Vim 
 source ~/.vimrc
