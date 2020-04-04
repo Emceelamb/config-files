@@ -9,9 +9,6 @@
 PS1='\e[32m\u\e[36m@\h \e[0;93m\W =>\e[m '
 # PS1='[\u@\h \W]\$ '
 
-sh $HOME/bin/welcome-message/welcome_message
-nime=/home/drifter/school/2019_fall/nime/Centralize/master
-
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -19,7 +16,7 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+# enable bash completion in interactive shells
 
 # Better tab completion
 bind "set completion-ignore-case on"
