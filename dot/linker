@@ -1,6 +1,14 @@
 #!/bin/bash
 
 # Bash
+mv ~/.bashrc ~/.bashrc.bak
+mv ~/.bash_aliases ~/.bash_aliases.bak
+mv ~/.inputrc ~/.inputrc.bak
+mv ~/.tmux.conf ~/.tmux.conf.bak
+rm ~/.tmux -rf
+mv ~/.vimrc ~/.vimrc.bak
+rm ~/.vim -rf
+
 ln -sv ~/.config-files/dot/.bashrc ~
 ln -sv ~/.config-files/dot/.bash_aliases ~
 ln -sv ~/.config-files/dot/.inputrc ~

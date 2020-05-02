@@ -2,11 +2,20 @@
 
 My .dot files, shell scripts, and various configuration files as I learn more about the machine..
 
+## Installation
+```
+git clone --depth 1 --recursive https://github.com/Emceelamb/config-files.git ~/.config-files
+cd .config-files
+bash setup-configs
+```
+
 ## Some of my favorite tools
 ### Operating systems
 - KDE Arch Linux
 - Kubuntu
 - Raspian
+- ArchARM
+- Alpine Linux
 
 ### Text
 - Vim
@@ -26,4 +35,3 @@ My .dot files, shell scripts, and various configuration files as I learn more ab
 - sxiv for images
 - jpegoptim for optimizing images
 - zathura for pdf
-- test

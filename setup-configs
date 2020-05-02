@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# SETUP BIN DIRECTORY
+if [ -d "$HOME/bin"  ] 
+then
+  cp sh/* $HOME/bin -r
+  
+else
+  mkdir $HOME/bin
+  cp sh/* $HOME/bin
+fi
+
+# CREATE SYMLINKS
+bash dot/linker
+
+# SOURCE FILES
+bash dot/sourcer

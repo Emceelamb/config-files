@@ -15,7 +15,7 @@
 ##################emceelamb#####
 
 #### BOOKMARK FILE LOCATION ####
-bookmarkfile="$(pwd)/.shellbookmarks"
+bookmarkfile="$HOME/.shellbookmarks"
 
 RED="1;31m"
 GREEN="1;32m"
@@ -78,7 +78,7 @@ function bmk() {
   elif [[ $1 -ge 0 ]] && [[ $1 -le ${#saved_bookmarks[@]} ]]; then
     working_dir=${saved_bookmarks[$1]}
     cd $working_dir
-    echo -e "\e[${GREEN}Jumped to $working_dir.\e[${NORMAL}"
+    echo -e "\e[${GREEN}Goto $working_dir.\e[${NORMAL}"
   
   elif [[ $1 -gt ${#saved_bookmarks[@]} ]]; then
     echo -e "\e[${RED}Bookmark not found!\e[${NORMAL}"
