@@ -48,3 +48,6 @@ bind -m vi-insert "\C-l":clear-screen
 
 # enable shell bookmarks
 source $HOME/bin/shell-bookmarks.sh
+
+# Remove pyc
+rm-pyc="find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete"
